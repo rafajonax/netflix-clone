@@ -133,7 +133,7 @@ header nav a:hover {
 	animation-delay: 0ms;
 	animation-fill-mode: forwards;
 	animation-timing-function: linear;
-	/* animation-iteration-count: infinite; */
+	animation-iteration-count: infinite;
 	transform-origin: 0 0;
 	width: 14%;
 	z-index: 2;
@@ -148,84 +148,70 @@ header nav a:hover {
 	width: 100%;
 }
 
-
 /* @keyframes stylie-transform-keyframes {
-  0% {transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  12.50% {transform:translate(-11px, -49px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  25% {transform:translate(-34px, -66px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  37.50% {transform:translate(-72px, -73px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  50% {transform:translate(-122px, -78px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  62.50% {transform:translate(-161px, -86px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  75% {transform:translate(-193px, -97px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  87.50% {transform:translate(-215px, -114px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
-  100% {transform:translate(-243px, -139px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
+  0% {transform:translate(0px, 0px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  12.50% {transform:translate(-11px, -49px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  25% {transform:translate(-34px, -66px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  37.50% {transform:translate(-72px, -73px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  50% {transform:translate(-122px, -78px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  62.50% {transform:translate(-161px, -86px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  75% {transform:translate(-193px, -97px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  87.50% {transform:translate(-215px, -114px) scale(1) rotate(0deg)  ;animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {transform:translate(-243px, -139px) scale(1) rotate(0deg)  ;}
 }*/
 
 @keyframes dementor-keyframes {
 	0% {
-		transform: translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(0px, 0px) scale(1) rotate(0deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 	}
 	10% {
-		transform: translate(-146px, -43px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-146px, -43px) scale(1.1) rotate(-10deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 		opacity: 1;
 	}
 	20% {
-		transform: translate(-271px, -84px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-271px, -84px) scale(1) rotate(-15deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		opacity: .8;
+		opacity: 0.8;
 	}
 	30% {
-		transform: translate(-394px, -134px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-394px, -134px) scale(1.1) rotate(-20deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		opacity: .1;
+		opacity: 0.1;
 	}
 	40% {
-		transform: translate(-487px, -180px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-487px, -180px) scale(1) rotate(-15deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		opacity: .8;
+		opacity: 0.8;
 	}
 	50% {
-		transform: translate(-585px, -262px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-585px, -262px) scale(1.1) rotate(-10deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 		opacity: 1;
 	}
 	60% {
-		transform: translate(-632px, -326px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-632px, -326px) scale(1) rotate(-5deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		opacity: .8;
+		opacity: 0.8;
 	}
 	70% {
-		transform: translate(-614px, -413px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-614px, -413px) scale(1.1) rotate(0deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
 		opacity: 1;
 	}
 	80% {
-		transform: translate(-559px, -486px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+		transform: translate(-559px, -486px) scale(1) rotate(0deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		opacity: .8;
+		opacity: 0.8;
 	}
-	90% {
-		transform: translate(-483px, -547px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
+	80% {
+		transform: translate(-559px, -640px) scale(1) rotate(0deg);
 		animation-timing-function: cubic-bezier(0.25, 0.25, 0.75, 0.75);
-		opacity: 1;
+		opacity: 0.8;
 	}
 	100% {
-		transform: translate(-440px, -640px) scale(1) rotateX(0deg) rotateY(0deg)
-			rotateZ(0deg) translate(-50%, -50%);
-			opacity: .2;
+		transform: translate(-559px, -1500px) scale(1) rotate(0deg);
+		opacity: 0.2;
 	}
 }
-
-
