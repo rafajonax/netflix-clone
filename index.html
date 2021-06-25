@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NETFLIX CLONE</title>
+		<!-- style -->
+		<link rel="stylesheet" href="/style/main.css" />
+		<!-- responsive -->
+		<link rel="stylesheet" href="/style/responsive.css" />
+		<!-- font awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- owl -->
+		<link rel="stylesheet" href="/vendor/owl/css/owl.carousel.min.css" />
+		<link rel="stylesheet" href="/vendor/owl/css/owl.theme.default.min.css" />
+
+		<!-- glide -->
+		<!-- <link rel="stylesheet" href="vendor/glide/css/glide.core.min.css" /> -->
+		<!-- <link rel="stylesheet" href="vendor/glide/css/glide.theme.min.css" /> -->
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<h2 class="logo">NETFLIX</h2>
+				<nav>
+					<a href="#">Início</a>
+					<a href="#">Séries</a>
+					<a href="#">Filmes</a>
+					<a href="#">Documentários</a>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<div class="main-movie">
+				<div class="container">
+					<h3 class="title">HARRY POTTER E O PRISIONEIRO DE AZKABAN</h3>
+					<p class="description">
+						O 3º ano de ensino na Escola de Magia e Bruxaria de Hogwarts se
+						aproxima. Porém um grande perigo ronda a escola: o assassino Sirius
+						Black fugiu da prisão de Azkaban, considerada até então como à prova
+						de fugas. Para proteger a escola são enviados os Dementadores,
+						estranhos seres que sugam a energia vital de quem se aproxima deles,
+						que tanto podem defender a escola como piorar ainda mais a situação.
+					</p>
+					<div class="buttons">
+						<button role="button" class="button">
+							<i class="fas fa-play"></i>
+							ASSISTIR AGORA
+						</button>
+						<button role="button" class="button">
+							<i class="fas fa-info-circle"></i>
+							MAIS INFORMAÇÕES
+						</button>
+					</div>
+				</div>
+				<div class="dementor-container">
+					<img src="/img/dementor.png" alt="dementor" class="dementor" />
+					<!-- <div class="dementor"></div> -->
+				</div>
+			</div>
+		</main>
+		<div id="posters" class="movies-carousel-container"></div>
+	</body>
+	<!-- jQuery -->
+	<script src="/vendor/jQuery/jquery.min.js"></script>
+	<!-- owl -->
+	<script src="/vendor/owl/js/owl.carousel.min.js"></script>
+
+	<!-- glide -->
+	<!-- <script src="/vendor/glide/js/glide.min.js"></script> -->
+	<script src="/js/script.js"></script>
+</html>
+
+<!-- <div class="form-floating">
+	<input
+		type="number"
+		class="form-control"
+		name="person_gov_code"
+		id="person_gov_code"
+		placeholder=" "
+		pattern="[0-9]"
+		${globals.form_fields.person_gov_code.required}
+	/>
+	<label data-for="person_gov_code" for="person_gov_code"
+		>${globals.form_fields.person_gov_code.label}</label
+	>
+
+	<div class="invalid-feedback">Preenchimento obrigatório.</div>
+</div> -->
